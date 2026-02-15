@@ -1,0 +1,13 @@
+diff --git a/test_tile.py b/test_tile.py
+index 5389e46..4c57ff9 100644
+--- a/test_tile.py
++++ b/test_tile.py
+@@ -125,7 +125,7 @@ def main(args: arg_util.Args):
+     image_names = []
+     folders = os.listdir("testset/")
+     for folder in folders:
+-        image_names.extend(sorted(glob.glob(f'testset/{folder}/LR/*.png'))[:])
++        image_names.extend(sorted(glob.glob(f'testset/{folder}/LR/*.jpg'))[:])
+     
+     acc_mean = 0.0
+     rscale = 4

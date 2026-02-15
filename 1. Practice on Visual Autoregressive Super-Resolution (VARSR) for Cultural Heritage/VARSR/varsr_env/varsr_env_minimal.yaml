@@ -1,0 +1,9 @@
+name: varsr_pip
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - defaults
+dependencies:
+  - python=3.9
+prefix: /root/miniconda3/envs/varsr_pip
